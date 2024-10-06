@@ -12,7 +12,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <>
+    <div>
 
       <Navbar />
       <Chatbox />
@@ -26,6 +26,6 @@ export default function Home() {
         <Tentang />
         <Footer />
       </main>
-    </>
+    </div>
   );
 }
