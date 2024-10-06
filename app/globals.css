@@ -25,3 +25,25 @@ body {
     text-wrap: balance;
   }
 } */
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  scroll-behavior: smooth;
+  @apply  bg-Back font-Poppins
+}
+
+h1 {
+  @apply text-xl md:text-3xl font-extrabold
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('./fonts/Poppins-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'PoppinsBold';
+  src: url('./fonts/Poppins-Bold.otf') format('opentype');
+}

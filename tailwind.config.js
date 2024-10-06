@@ -8,9 +8,17 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        Back: '#ffc300',
+        putih: '#fffef3',
+        Primer: '#ff9e01',
+        Orange: '#ff7b00',
+        Tan: '#150d0a'
+
       },
+      fontFamily: {
+        Poppins: ['Poppins'],
+        PoppinsBold: ['PoppinsBold']
+      }
     },
   },
   plugins: [],
