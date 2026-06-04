@@ -3,6 +3,10 @@ import React from 'react'
 import SquareImg from "@/Assets/Img/square.png";
 import PatternImg3 from "@/Assets/Img/pattern3.png";
 import ExampleImg from "@/Assets/Img/Example.png";
+import Perkantoran1 from '@/Assets/Img/perkantoran.jpg'
+import Perkantoran2 from '@/Assets/Img/perkantoran2.jpg'
+import Perkantoran3 from '@/Assets/Img/perkantoran3.jpg'
+
 
 export default function Galeri() {
     return (
@@ -20,37 +24,37 @@ export default function Galeri() {
 
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-4 py-4 px-8 mt-6">
                     <div className="relative rounded-lg overflow-hidden">
-                        <Image className="h-auto max-w-full rounded-lg" src={ExampleImg} alt="" />
+                        <Image className="h-full max-w-full object-cover rounded-lg" src={ExampleImg} alt="" />
                         <div className="absolute bottom-0 w-full bg-putih px-6 py-3 text-center rounded-t-xl text-lg hidden md:block">
                             Deskripsi Galeri
                         </div>
                     </div>
                     <div className="relative rounded-lg overflow-hidden">
-                        <Image className="h-auto max-w-full rounded-lg" src={ExampleImg} alt="" />
+                        <Image className="h-full max-w-full object-cover rounded-lg" src={Perkantoran1} alt="" />
                         <div className="absolute bottom-0 w-full bg-putih px-6 py-3 text-center rounded-t-xl text-lg hidden md:block">
                             Deskripsi Galeri
                         </div>
                     </div>
                     <div className="relative rounded-lg overflow-hidden">
-                        <Image className="h-auto max-w-full rounded-lg" src={ExampleImg} alt="" />
+                        <Image className="h-full max-w-full object-cover rounded-lg" src={Perkantoran2} alt="" />
                         <div className="absolute bottom-0 w-full bg-putih px-6 py-3 text-center rounded-t-xl text-lg hidden md:block">
                             Deskripsi Galeri
                         </div>
                     </div>
                     <div className="relative rounded-lg overflow-hidden">
-                        <Image className="h-auto max-w-full rounded-lg" src={ExampleImg} alt="" />
+                        <Image className="h-full max-w-full object-cover rounded-lg" src={Perkantoran3} alt="" />
                         <div className="absolute bottom-0 w-full bg-putih px-6 py-3 text-center rounded-t-xl text-lg hidden md:block">
                             Deskripsi Galeri
                         </div>
                     </div>
                     <div className="relative rounded-lg overflow-hidden">
-                        <Image className="h-auto max-w-full rounded-lg" src={ExampleImg} alt="" />
+                        <Image className="h-full max-w-full object-cover rounded-lg" src={ExampleImg} alt="" />
                         <div className="absolute bottom-0 w-full bg-putih px-6 py-3 text-center rounded-t-xl text-lg hidden md:block">
                             Deskripsi Galeri
                         </div>
                     </div>
                     <div className="relative rounded-lg overflow-hidden">
-                        <Image className="h-auto max-w-full rounded-lg" src={ExampleImg} alt="" />
+                        <Image className="h-full max-w-full object-cover rounded-lg" src={Perkantoran1} alt="" />
                         <div className="absolute bottom-0 w-full bg-putih px-6 py-3 text-center rounded-t-xl text-lg hidden md:block">
                             Deskripsi Galeri
                         </div>
